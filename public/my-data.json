@@ -1,0 +1,94 @@
+{
+  "full_name": "Yazeed Idris",
+  "social_badges" : [
+    {
+      "name": "Email",
+        "icon": "https://cdn.worldvectorlogo.com/logos/gmail-icon.svg"
+    },
+    {
+      "name": "GitHub",
+        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg"
+    },
+    {
+      "name": "LinkedIn",
+        "icon": "https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg"
+    }
+  ],
+  "title": "Web Developer, Team Manager & Enthusiastic Learner",
+  "subtitle": "I love building responsive web applications that bring life to amazing ideas.",
+  "description": "Driven Software Engineer with a strong background in full-stack web\ndevelopment, project management, and deep learning. Detail-oriented,\norganized and meticulous developer. Works at fast pace to meet tight\ndeadlines. Enthusiastic team player ready to contribute to company success.",
+  "picture_url": "/personal_picture.png",
+  "education_title": "My Education",
+  "education_content": "I graduated from King Fahd University of Petroleum and Minerals with a Bachelor of Software Engineering and an honorary GPA of 3.124 out of 4",
+  "skills_title": "My Toolbox",
+    "skills_content": "I have a wide range of skills and experience in the following areas:",
+  "skill_badges": [
+    {
+      "name": "NodeJS",
+      "icon": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+    },
+    {
+      "name": "HTML5",
+        "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg"
+    },
+    {
+      "name": "TailwindCSS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
+    },
+    {
+      "name": "ReactJS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+    },
+    {
+      "name": "npm",
+        "icon": "https://cdn.worldvectorlogo.com/logos/npm.svg"
+    },
+    {
+      "name": "CSS3",
+        "icon": "https://cdn.worldvectorlogo.com/logos/css-5.svg"
+    },
+    {
+      "name": "Bootstrap",
+        "icon": "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
+    },
+    {
+      "name": "VueJS",
+        "icon": "https://cdn.worldvectorlogo.com/logos/vue-9.svg"
+    },
+    {
+      "name": "GitHub",
+        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg"
+    },
+    {
+      "name": "JavaScript",
+        "icon": "https://cdn.worldvectorlogo.com/logos/javascript.svg"
+    },
+    {
+      "name": "TypeScript",
+        "icon": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+    },
+    {
+      "name": "Angular",
+        "icon": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
+    },
+    {
+      "name": "JetBrains",
+        "icon": "https://cdn.worldvectorlogo.com/logos/jetbrains.svg"
+    },
+    {
+      "name": "Vim",
+        "icon": "https://cdn.worldvectorlogo.com/logos/vim.svg"
+    },
+    {
+      "name": "Python",
+        "icon": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+    },
+    {
+      "name": "Java",
+        "icon": "https://cdn.worldvectorlogo.com/logos/java.svg"
+    }
+  ],
+  "projects_title": "My Work",
+  "projects_content": "Here are some of my projects:",
+  "projects": []
+}
