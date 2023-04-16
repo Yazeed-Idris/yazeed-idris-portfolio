@@ -11,8 +11,8 @@ npm install
 
 ## Usage
 
-To change the theme colors, you can change the colors in the tailwind configuration file `/tailwind.config.js` file.
-To change the content of the website, you can change the data in `/public/my-data.json`.
+- To change the theme colors, you can change the colors in the tailwind configuration file `/tailwind.config.js` file.
+- To change the content of the website, you can change the data in `/public/my-data.json`.
 
 ## Used Technologies
 - [React](https://reactjs.org/)
