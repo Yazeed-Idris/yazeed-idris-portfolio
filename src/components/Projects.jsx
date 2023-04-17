@@ -8,7 +8,7 @@ export const Projects = ({projectsTitle, projectsContent, projects}) => {
             <div className={`small-container mx-auto py-8`}>
                 <h1 className={`text-4xl text-primary font-LilitaOne`}>{projectsTitle}</h1>
                 <p className={`text-2xl text-secondary `}>{projectsContent}</p>
-               <div className={`flex flex-wrap`}>
+               <div className={`grid place-items-center grid-cols-1 lg:grid-cols-3 gap-3`}>
                      {projects.map((project) => (<ProjectCard key={project.title} project={project}/>))}
                </div>
 
