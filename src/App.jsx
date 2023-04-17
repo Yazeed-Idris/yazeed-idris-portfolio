@@ -6,13 +6,14 @@ import {Education} from "./components/Education.jsx";
 import {Skills} from "./components/Skills.jsx";
 import {Projects} from "./components/Projects.jsx";
 
+const DATA_URL = '/my-data.json';
+
 function App() {
     const [data, setData] = useState({})
-    const [theme, setTheme] = useState('default')
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('/my-data.json')
+            const response = await fetch(DATA_URL)
             const data = await response.json()
             setData(data)
         }

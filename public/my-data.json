@@ -90,5 +90,96 @@
   ],
   "projects_title": "My Work",
   "projects_content": "Here are some of my projects:",
-  "projects": []
+  "projects": [
+    {
+      "title": "Tanseeq",
+      "image_url": "/projects_assets/tanseeq/Student Graduation Plan.png",
+      "image_urls": [
+        "/projects_assets/tanseeq/Course Information Modal.png",
+        "/projects_assets/tanseeq/Student Graduation Plan.png",
+        "/projects_assets/tanseeq/Course Pressure.png",
+        "/projects_assets/tanseeq/Faculty Pressure.png",
+        "/projects_assets/tanseeq/Generate New Plan.png",
+        "/projects_assets/tanseeq/Generated Plan (edit).png"
+      ]
+    },
+    {
+      "title": "Age Calculator",
+      "image_url": "/projects_assets/age-calculator-app/desktop-view.png",
+      "image_urls": [
+        "/projects_assets/age-calculator-app/desktop-view.png",
+        "/projects_assets/age-calculator-app/mobile-view.png"
+      ]
+    },
+    {
+      "title": "Grammy",
+        "image_url": "/projects_assets/grammy/grammy post.PNG",
+        "image_urls": [
+          "/projects_assets/grammy/grammy post.PNG",
+          "/projects_assets/grammy/grammy login.PNG",
+            "/projects_assets/grammy/grammy signup.PNG",
+            "/projects_assets/grammy/grammy create post.PNG"
+        ]
+    },
+    {
+      "title": "Countries API",
+        "image_url": "/projects_assets/rest-countries-api/desktop-dark-main.png",
+        "image_urls": [
+          "/projects_assets/rest-countries-api/desktop-dark-main.png",
+          "/projects_assets/rest-countries-api/desktop-dark-info.png",
+          "/projects_assets/rest-countries-api/desktop-light-main-filter.png",
+            "/projects_assets/rest-countries-api/desktop-dark-info.png",
+          "/projects_assets/rest-countries-api/mobile-dark-main.png",
+            "/projects_assets/rest-countries-api/mobile-dark-info.png"
+        ]
+    },
+    {
+      "title": "Results Summary Component",
+        "image_url": "/projects_assets/results-summary-component/desktop-main.png",
+        "image_urls": [
+          "/projects_assets/results-summary-component/desktop-main.png",
+          "/projects_assets/results-summary-component/mobile-main.png"
+        ]
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "image_url": "/projects_assets/rock-paper-scissors/rock-paper-scissors-desktop.png",
+        "image_urls": [
+            "/projects_assets/rock-paper-scissors/rock-paper-scissors-desktop.png",
+            "/projects_assets/rock-paper-scissors/rock-paper-scissors-mobile.png",
+          "/projects_assets/rock-paper-scissors/rock-paper-scissors-desktop-match.png",
+            "/projects_assets/rock-paper-scissors/rock-paper-scissors-mobile-match.png",
+            "/projects_assets/rock-paper-scissors/rock-paper-scissors-desktop-rules.png",
+            "/projects_assets/rock-paper-scissors/rock-paper-scissors-mobile-rules.png"
+        ]
+    },
+    {
+      "title": "Rock Paper Scissors Lizard Spock",
+        "image_url": "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-desktop.png",
+            "image_urls": [
+                "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-desktop.png",
+                "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-mobile.png",
+            "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-desktop-match.png",
+                "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-mobile-match.png",
+                "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-desktop-rules.png",
+                "/projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-mobile-rules.png"
+            ]
+    },
+    {
+      "title": "Sales Page",
+      "image_url": "/projects_assets/sales-demo/sales-demo-desktop.PNG",
+        "image_urls": [
+            "/projects_assets/sales-demo/sales-demo-desktop.PNG",
+            "/projects_assets/sales-demo/sales-demo-mobile.PNG"
+        ]
+    },
+    {
+      "title": "Tip Calculator",
+        "image_url": "/projects_assets/tip-calculator-app/desktop-main.png",
+            "image_urls": [
+                "/projects_assets/tip-calculator-app/desktop-main.png",
+                "/projects_assets/tip-calculator-app/mobile-main.png"
+            ]
+    }
+  ]
 }
