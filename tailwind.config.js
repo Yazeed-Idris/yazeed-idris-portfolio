@@ -2,6 +2,15 @@
 module.exports = {
     theme: {
         extend: {
+            animation: {
+                'opacity-toggle': 'opacity-toggle 2s cubic-bezier(1, 0, 0.3, 1) infinite alternate',
+            },
+            keyframes: {
+                'opacity-toggle': {
+                    '0%': {opacity: 0},
+                    '100%': {opacity: 1},
+                }
+            },
             fontFamily: {
                 'LilitaOne': ['Lilita One', 'cursive'],
                 'Oswald': ['Oswald', 'sans-serif'],
