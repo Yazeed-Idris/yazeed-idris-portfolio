@@ -36,7 +36,6 @@ export const ProjectCard = ({project}) => {
             </div>
             <div className={`grid place-items-center grow py-4 px-2`}>
                 <p className={`mx-1 text-primary text-center text-lg`}>{project['description']?? ''}</p>
-            {/*    todo: add technologies section */}
                     {project['used_technologies'] && (
                         <div className={`inline-flex flex-wrap justify-center items-center`}>
                             {project['used_technologies'].map((badge) => (
