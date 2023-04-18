@@ -27,7 +27,7 @@ function App() {
                   <title>{data['full_name']}</title>
               </Helmet>
           </HelmetProvider>
-          <Header fullName={data['full_name']} socialBadges={data['social_badges']}/>
+          <Header fullName={data['full_name']} navigationLinks={data['navigation_links']}/>
           <main className={`font-Oswald`}>
               <About fullName={data['full_name']} title={data['title']} subtitle={data['subtitle']} description={data['description']} pictureUrl={data['picture_url']}/>
               <Education educationTitle={data['education_title']} educationContent={data['education_content']}/>

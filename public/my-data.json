@@ -1,5 +1,27 @@
 {
   "full_name": "Yazeed Idris",
+  "navigation_links": [
+    {
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "name": "Education",
+      "link": "#education"
+    },
+    {
+      "name": "Skills",
+      "link": "#skills"
+    },
+    {
+      "name": "Projects",
+      "link": "#projects"
+    },
+    {
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
   "social_badges" : [
     {
       "name": "Email",
@@ -19,7 +41,7 @@
   "_COMMENT1": "//todo: add better description",
   "description": "Driven Software Engineer with a strong background in full-stack web\ndevelopment, project management, and deep learning. Detail-oriented,\norganized and meticulous developer. Works at fast pace to meet tight\ndeadlines. Enthusiastic team player ready to contribute to company success.",
   "picture_url": "/personal_picture.png",
-  "education_title": "My Education",
+  "education_title": "KFUPM",
   "education_content": "I graduated from King Fahd University of Petroleum and Minerals with a Bachelor of Software Engineering and an honorary GPA of 3.124 out of 4",
   "skills_title": "My Toolbox",
     "skills_content": "I have a wide range of skills and experience in the following areas:",

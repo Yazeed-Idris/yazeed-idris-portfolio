@@ -1,7 +1,7 @@
 export const Skills = ({skillsTitle, skillsContent, skillBadges}) => {
     if (!skillsTitle || !skillsContent || !skillBadges) return null;
     return (
-        <section role={'contentinfo'} aria-label={`information about ${skillsTitle}`} className={`w-full px-14`}>
+        <section id={'skills'} role={'contentinfo'} aria-label={`information about ${skillsTitle}`} className={`w-full px-14`}>
             <div className={`small-container mx-auto py-8`}>
                 <h1 className={`text-4xl text-primary font-LilitaOne`}>{skillsTitle}</h1>
                 <p className={`text-2xl text-secondary`}>{skillsContent}</p>
