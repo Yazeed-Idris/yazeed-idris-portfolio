@@ -7,7 +7,6 @@ export const ProjectCard = ({project}) => {
     const linksContainerRef = useRef(null)
 
     useEffect(() => {
-        console.log('rerendered')
         const animationInterval = setInterval(() => {
             if (!linksContainerRef.current) return;
             if (linksContainerRef.current.classList.contains('opacity-0')) {
