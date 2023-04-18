@@ -27,7 +27,7 @@ export const ProjectCard = ({project}) => {
             <div ref={linksContainerRef} className={`absolute top-0 left-0 text-secondary-contrast rounded-t-lg grid place-items-center opacity-0 hover:opacity-100 bg-primary transition-all duration-300`}>
                 <img className={`w-full object-cover rounded-t-lg invisible`} src={project['image_url']} alt=""/>
                 <div className={`w-full absolute`}>
-                    <h1 className={`font-LilitaOne text-2xl text-white opacity-90 mb-3 text-center`}>{project.title}</h1>
+                    <h1 className={`font-LilitaOne text-2xl text-plain opacity-90 mb-3 text-center`}>{project.title}</h1>
                     <div className={`flex justify-center`}><ExternalLinkButton link={project['live_site_link']} text={'Live Site'}/>
                         <ExternalLinkButton link={project['github_repo_link']} text={'Github Repo'}/>
                         <ExternalLinkButton link={project['more_link']} text={'More'}/></div>
@@ -39,9 +39,9 @@ export const ProjectCard = ({project}) => {
                     {project['used_technologies'] && (
                         <div className={`inline-flex flex-wrap justify-center items-center`}>
                             {project['used_technologies'].map((badge) => (
-                                    <a target='_blank' href={badge.link} className={`w-fit mx-1 mt-2 transition-all duration-100 border-secondary border py-1 px-2 flex rounded-lg hover:cursor-pointer hover:bg-primary hover:border-white group`}>
+                                    <a target='_blank' href={badge.link} className={`w-fit mx-1 mt-2 transition-all duration-100 border-secondary border py-1 px-2 flex rounded-lg hover:cursor-pointer hover:bg-primary hover:border-plain group`}>
                                     <img className={`w-4 h-4 mr-1`} src={badge.icon} alt={`icon of ${badge.name}`}/>
-                                    <p className={`text-secondary group-hover:text-white font-LilitaOne text-xs`}>{badge.name}</p>
+                                    <p className={`text-secondary group-hover:text-plain font-LilitaOne text-xs`}>{badge.name}</p>
                                 </a>
                             ))}
                         </div>

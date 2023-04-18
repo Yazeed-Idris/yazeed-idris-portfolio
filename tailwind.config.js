@@ -16,6 +16,7 @@ module.exports = {
                 'Oswald': ['Oswald', 'sans-serif'],
             },
             colors: {
+                'plain': '#FFFFFF',
                 'primary': '#05445E', // Navy Blue
                 'secondary': '#189AB4', // Blue Grotto
                 'primary-contrast': '#75E6DA', // Blue Green
