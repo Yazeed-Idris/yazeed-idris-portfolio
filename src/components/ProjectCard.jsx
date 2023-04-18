@@ -43,7 +43,7 @@ export const ProjectCard = ({project}) => {
                         <div className={`inline-flex flex-wrap justify-center items-center`}>
                             {project['used_technologies'].map((badge) => (
                                     <a key={badge.name} target='_blank' href={badge.link} className={`w-fit mx-1 mt-2 transition-all duration-100 border-secondary border py-1 px-2 flex rounded-lg hover:cursor-pointer hover:bg-primary hover:border-plain group`}>
-                                    <img className={`w-4 h-4 mr-1`} src={badge.icon} alt={`icon of ${badge.name}`}/>
+                                        {badge.icon && <img className={`w-4 h-4 mr-1`} src={badge.icon} alt={`icon of ${badge.name}`}/> }
                                     <p className={`text-secondary group-hover:text-plain font-LilitaOne text-xs`}>{badge.name}</p>
                                 </a>
                             ))}

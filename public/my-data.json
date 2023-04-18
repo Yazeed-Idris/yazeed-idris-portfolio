@@ -111,6 +111,11 @@
         "link": "https://angular.io/"
     },
     {
+      "name": "NestJS",
+      "icon": "/icons/nestjs.png",
+      "link": "https://nestjs.com/"
+    },
+    {
       "name": "JetBrains",
         "icon": "https://cdn.worldvectorlogo.com/logos/jetbrains.svg",
         "link": "https://www.jetbrains.com/"
@@ -150,7 +155,7 @@
       "used_technologies": [
         {
           "name": "NestJS",
-            "icon": "https://cdn.worldvectorlogo.com/logos/nestjs-1.svg",
+            "icon": "/icons/nestjs.png",
           "link": "https://nestjs.com/"
         },
         {
@@ -266,7 +271,6 @@
         },
         {
           "name": "Countries API",
-            "icon": "https://cdn.worldvectorlogo.com/logos/restcountries.svg",
             "link": "https://restcountries.com/"
         }
       ]
@@ -284,7 +288,7 @@
       "used_technologies": [
         {
           "name": "HTML5",
-            "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+            "icon": "/icons/html5.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
         },
         {
