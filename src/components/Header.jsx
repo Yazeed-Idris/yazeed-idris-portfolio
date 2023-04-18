@@ -21,7 +21,7 @@ export const Header = ({fullName, navigationLinks}) => {
     return (
         <header className={`w-full px-6 bg-secondary-contrast relative`}>
             <div className={`container mx-auto flex justify-between items-center py-8 flex-wrap`}>
-                <h1 className={`text-4xl font-LilitaOne text-secondary`}>{fullName}</h1>
+                <a href={'/'}><h1 className={`text-4xl font-LilitaOne text-secondary`}>{fullName}</h1></a>
                 <div className={``}>
                     <button onClick={handleBurgerClick} className={`md:hidden grid place-items-center border-2 border-secondary p-1 rounded-lg`}>
                         <FontAwesomeIcon className={`text-secondary w-6 h-6`} icon={faBars} />
