@@ -141,7 +141,7 @@ export const data ={
     projects: [
         {
             title: "Tanseeq",
-            image_url: "/projects_assets/tanseeq/Student Graduation Plan.png",
+            image_url: "./projects_assets/tanseeq/Student Graduation Plan.png",
             image_urls: [
                 "./projects_assets/tanseeq/Course Information Modal.png",
                 "./projects_assets/tanseeq/Student Graduation Plan.png",
@@ -177,7 +177,7 @@ export const data ={
         },
         {
             title: "Age Calculator",
-            image_url: "/projects_assets/age-calculator-app/desktop-view.png",
+            image_url: "./projects_assets/age-calculator-app/desktop-view.png",
             image_urls: [
                 "./projects_assets/age-calculator-app/desktop-view.png",
                 "./projects_assets/age-calculator-app/mobile-view.png"
