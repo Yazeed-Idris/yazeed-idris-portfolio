@@ -26,18 +26,18 @@
   "social_badges" : [
     {
       "name": "Email",
-        "icon": "https://cdn.worldvectorlogo.com/logos/gmail-icon.svg",
+        "icon": "/icons/email.png",
       "link": "mailto:yazeed.a.idris@gmail.com?subject=[GitHub]%20Portfolio&body=Hi%20Yazeed!"
     },
     {
-      "name": "GitHub",
-        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg",
-      "link": "https://github.com/Yazeed-Idris"
+      "name": "LinkedIn",
+      "icon": "/icons/linkedin.png",
+      "link": "https://www.linkedin.com/in/yazeed-idris/"
     },
     {
-      "name": "LinkedIn",
-        "icon": "https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg",
-      "link": "https://www.linkedin.com/in/yazeed-idris/"
+      "name": "GitHub",
+        "icon": "/icons/github.png",
+      "link": "https://github.com/Yazeed-Idris"
     }
   ],
   "title": "Web Developer, Team Manager, Enthusiastic Learner",
@@ -57,7 +57,7 @@
     },
     {
       "name": "HTML5",
-        "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+        "icon": "/icons/html5.png",
         "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "name": "CSS3",
-        "icon": "https://cdn.worldvectorlogo.com/logos/css-5.svg",
+        "icon": "/icons/css3.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "name": "JavaScript",
-        "icon": "https://cdn.worldvectorlogo.com/logos/javascript.svg",
+        "icon": "/icons/javascript.png",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
@@ -289,7 +289,7 @@
         },
         {
           "name": "CSS3",
-            "icon": "https://cdn.worldvectorlogo.com/logos/css3.svg",
+            "icon": "/icons/css3.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         }
       ]
@@ -369,17 +369,17 @@
       "used_technologies": [
         {
           "name": "HTML5",
-            "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+            "icon": "/icons/html5.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
         },
         {
           "name": "CSS3",
-            "icon": "https://cdn.worldvectorlogo.com/logos/css3.svg",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
           "name": "JavaScript",
-            "icon": "https://cdn.worldvectorlogo.com/logos/javascript.svg",
+            "icon": "/icons/javascript.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         }
       ]
