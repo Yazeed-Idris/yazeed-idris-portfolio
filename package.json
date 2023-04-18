@@ -2,7 +2,7 @@
   "name": "yazeed-idris-portfolio",
   "private": true,
   "homepage": "https://yazeed-idris.github.io/yazeed-idris-portfolio/",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
