@@ -30,7 +30,7 @@ export const Header = ({fullName, navigationLinks}) => {
                         <ul  className={`flex flex-col justify-center items-center font-Oswald text-2xl md:flex-row bg-secondary-contrast text-secondary pb-4 md:pb-0`}>
                             {navigationLinks.map((link) => {
                                 return (
-                                    <li onClick={handleMenuClicks} key={link.name} className={`mx-2 my-1`}><a href={link.link}>{link.name}</a></li>
+                                    <li onClick={handleMenuClicks} key={link.name} className={`mx-2 my-1 hover:text-primary`}><a href={link.link}>{link.name}</a></li>
                                 )
                             })}
                         </ul>

@@ -22,18 +22,22 @@
       "link": "#contact"
     }
   ],
+  "social_title": "Get in Touch",
   "social_badges" : [
     {
       "name": "Email",
-        "icon": "https://cdn.worldvectorlogo.com/logos/gmail-icon.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/gmail-icon.svg",
+      "link": "mailto:yazeed.a.idris@gmail.com?subject=[GitHub]%20Portfolio&body=Hi%20Yazeed!"
     },
     {
       "name": "GitHub",
-        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg",
+      "link": "https://github.com/Yazeed-Idris"
     },
     {
       "name": "LinkedIn",
-        "icon": "https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg",
+      "link": "https://www.linkedin.com/in/yazeed-idris/"
     }
   ],
   "title": "Web Developer, Team Manager, Enthusiastic Learner",
