@@ -1,4 +1,4 @@
-import {Fragment, useEffect, useState} from "react";
+import {Fragment} from "react";
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {Header} from "./components/Header.jsx";
 import {About} from "./components/About.jsx";
@@ -6,20 +6,8 @@ import {Education} from "./components/Education.jsx";
 import {Skills} from "./components/Skills.jsx";
 import {Projects} from "./components/Projects.jsx";
 import {Footer} from "./components/Footer.jsx";
-
-const DATA_URL = '/my-data.json';
-
+import {data} from "./data/data.js";
 function App() {
-    const [data, setData] = useState({})
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch(DATA_URL)
-            const data = await response.json()
-            setData(data)
-        }
-    fetchData()
-    }, [])
 
     return (
       <Fragment>

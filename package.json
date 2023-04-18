@@ -1,7 +1,7 @@
 {
   "name": "yazeed-idris-portfolio",
   "private": true,
-  "homepage": "https://yazeed-idris.github.io/yazeed-idris-portfolio/",
+  "homepage": "/yazeed-idris-portfolio/",
   "version": "1.0.1",
   "type": "module",
   "scripts": {
