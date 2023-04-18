@@ -23,9 +23,9 @@ export const ProjectCard = ({project}) => {
     return (
         <div className={`relative w-full h-full rounded-lg flex flex-col shadow-lg`}>
             <img  className={`w-full object-cover rounded-t-lg`} src={project['image_url']} alt={`image of ${project.title}`}/>
-            <div ref={linksContainerRef} className={`absolute top-0 left-0 text-secondary-contrast rounded-t-lg grid place-items-center opacity-0 hover:opacity-100 bg-primary transition-all duration-300`}>
-                <div className={`relative`}>
-                    <img className={`w-full object-cover rounded-t-lg invisible`} src={project['image_url']} alt=""/>
+            <div ref={linksContainerRef} className={`absolute top-0 w-full left-0 text-secondary-contrast rounded-t-lg grid place-items-center opacity-0 hover:opacity-100 bg-primary transition-all duration-300`}>
+                <div className={`relative h-full`}>
+                    <img className={`w-full h-full object-cover rounded-t-lg invisible`} src={project['image_url']} alt=""/>
                     <div className={`w-full h-full absolute top-0 left-0 py-4 grid place-items-center`}>
                         <h1 className={`font-LilitaOne text-xl md:text-2xl text-plain opacity-90 mb-3 text-center`}>{project.title}</h1>
                         <div className={`flex justify-center`}><ExternalLinkButton link={project['live_site_link']}

@@ -52,67 +52,83 @@
   "skill_badges": [
     {
       "name": "NodeJS",
-      "icon": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+      "icon": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+      "link": "https://nodejs.org/en/"
     },
     {
       "name": "HTML5",
-        "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
     },
     {
       "name": "TailwindCSS",
-        "icon": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
     },
     {
       "name": "ReactJS",
-        "icon": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+        "link": "https://reactjs.org/"
     },
     {
       "name": "npm",
-        "icon": "https://cdn.worldvectorlogo.com/logos/npm.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/npm.svg",
+        "link": "https://www.npmjs.com/"
     },
     {
       "name": "CSS3",
-        "icon": "https://cdn.worldvectorlogo.com/logos/css-5.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/css-5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
       "name": "Bootstrap",
-        "icon": "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg",
+        "link": "https://getbootstrap.com/"
     },
     {
       "name": "VueJS",
-        "icon": "https://cdn.worldvectorlogo.com/logos/vue-9.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/vue-9.svg",
+        "link": "https://vuejs.org/"
     },
     {
       "name": "GitHub",
-        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/github-icon.svg",
+        "link": "https://github.com/"
     },
     {
       "name": "JavaScript",
-        "icon": "https://cdn.worldvectorlogo.com/logos/javascript.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/javascript.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
       "name": "TypeScript",
-        "icon": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+        "link": "https://www.typescriptlang.org/"
     },
     {
       "name": "Angular",
-        "icon": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+        "link": "https://angular.io/"
     },
     {
       "name": "JetBrains",
-        "icon": "https://cdn.worldvectorlogo.com/logos/jetbrains.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/jetbrains.svg",
+        "link": "https://www.jetbrains.com/"
     },
     {
       "name": "Vim",
-        "icon": "https://cdn.worldvectorlogo.com/logos/vim.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/vim.svg",
+        "link": "https://www.vim.org/"
     },
     {
       "name": "Python",
-        "icon": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+        "link": "https://www.python.org/"
     },
     {
       "name": "Java",
-        "icon": "https://cdn.worldvectorlogo.com/logos/java.svg"
+        "icon": "https://cdn.worldvectorlogo.com/logos/java.svg",
+        "link": "https://www.java.com/en/"
     }
   ],
   "projects_title": "My Work",
