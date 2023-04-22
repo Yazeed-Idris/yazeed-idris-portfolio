@@ -1,7 +1,7 @@
 export const Footer = ({fullName, socialBadges, socialTitle}) => {
     if (!fullName || !socialBadges || !socialTitle) return null;
     return (
-        <footer className={`w-full px-6 bg-primary`}>
+        <footer id={`contact`} className={`w-full px-6 bg-primary`}>
             <div className={`container mx-auto flex justify-between items-center py-6 flex-wrap`}>
                 <h1 className={`text-4xl font-LilitaOne text-center  grow text-primary-contrast`}>{socialTitle}</h1>
                 <div className={`flex justify-center items-center grow`}>

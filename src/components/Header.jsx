@@ -19,14 +19,14 @@ export const Header = ({fullName, navigationLinks}) => {
     }
 
     return (
-        <header className={`w-full px-6 bg-secondary-contrast relative`}>
+        <header className={`w-full px-6 bg-secondary-contrast sticky top-0 left-0 z-50`}>
             <div className={`container mx-auto flex justify-between items-center py-8 flex-wrap`}>
                 <a href={'/'}><h1 className={`text-4xl font-LilitaOne text-secondary`}>{fullName}</h1></a>
                 <div className={``}>
                     <button onClick={handleBurgerClick} className={`md:hidden grid place-items-center border-2 border-secondary p-1 rounded-lg`}>
                         <FontAwesomeIcon className={`text-secondary w-6 h-6`} icon={faBars} />
                     </button>
-                    <nav className={`z-50 absolute w-screen md:w-fit left-0 top-full ${isNavOpen? 'scale-100' : 'scale-0'} md:scale-100 origin-top md:static h-0 md:visible md:h-fit transition duration-100 `}>
+                    <nav className={`absolute w-screen md:w-fit left-0 top-full ${isNavOpen? 'scale-100' : 'scale-0'} md:scale-100 origin-top md:static h-0 md:visible md:h-fit transition duration-100 `}>
                         <ul  className={`flex flex-col justify-center items-center font-Oswald text-2xl md:flex-row bg-secondary-contrast text-secondary pb-4 md:pb-0`}>
                             {navigationLinks.map((link) => {
                                 return (
