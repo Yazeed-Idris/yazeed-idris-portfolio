@@ -150,7 +150,7 @@ export const data ={
                 "./projects_assets/tanseeq/Generate New Plan.png",
                 "./projects_assets/tanseeq/Generated Plan (edit).png"
             ],
-            description: "Tanseeq is a web application that helps students plan their graduation and choose their courses. It also helps faculty members to monitor the pressure on their courses and make decisions based on that.",
+            description: "Tanseeq is a web application that can generate customized course schedules or graduation plans for students. It can also help universities and schools monitor the demand on courses and the mitigate the pressure on instructors",
             more_link: "https://docs.google.com/presentation/d/1yKt9N3Jw3c3S5lC8Ec9elELolN-5YyDt/edit?usp=share_link&ouid=101325767605015031540&rtpof=true&sd=true",
             used_technologies: [
                 {
@@ -182,7 +182,7 @@ export const data ={
                 "./projects_assets/age-calculator-app/desktop-view.png",
                 "./projects_assets/age-calculator-app/mobile-view.png"
             ],
-            description: "Age Calculator is a web application that calculates the age of a person based on their birth date. It also calculates the number of days, hours, minutes, and seconds that have passed since their birth.",
+            description: "Age Calculator is a web application that calculates the age of a person in years, months, and days based on their birthdate",
             live_site_link: "https://yazeed-idris.github.io/age-calculator-app",
             github_repo_link: "https://github.com/Yazeed-Idris/age-calculator-app",
             used_technologies: [
@@ -217,7 +217,7 @@ export const data ={
                 "./projects_assets/grammy/grammy signup.PNG",
                 "./projects_assets/grammy/grammy create post.PNG"
             ],
-            description: "Grammy is a social media web application that allows users to share their thoughts and ideas with others. It also allows users to follow other users and see their posts in their feed.",
+            description: "Grammy is a social platform that enables users to post pictures or comment on posts of other users",
             live_site_link: "https://yazeed-idris.github.io/grammy/",
             github_repo_link: "https://github.com/Yazeed-Idris/grammy",
             used_technologies: [
@@ -249,7 +249,7 @@ export const data ={
                 "./projects_assets/rest-countries-api/mobile-dark-main.png",
                 "./projects_assets/rest-countries-api/mobile-dark-info.png"
             ],
-            description: "Countries API is a web application that displays information about all the countries in the world. It also allows users to filter the countries by region and search for a specific country.",
+            description: "Countries API is a web application that provides information about over 200 countries. Users can also filter countries by keywords or region, and they can view country borders by clicking on them",
             live_site_link: "https://yazeed-idris.github.io/rest-countries-api-with-color-theme-switcher/",
             github_repo_link: "https://github.com/Yazeed-Idris/rest-countries-api-with-color-theme-switcher",
             used_technologies: [
@@ -275,13 +275,13 @@ export const data ={
             ]
         },
         {
-            title: "Results Summary Component",
+            title: "Results Summary Component Template",
             image_url: "./projects_assets/results-summary-component/desktop-main.png",
             image_urls: [
                 "./projects_assets/results-summary-component/desktop-main.png",
                 "./projects_assets/results-summary-component/mobile-main.png"
             ],
-            description: "Results Summary Component is a display component for results of any kind. It displays the total number of results, the number of results per page, and the current page number. It also allows users to navigate between pages.",
+            description: "Results Summary Component is a display component for results of any kind. It displays the average score based on different categories and each score separately",
             live_site_link: "https://yazeed-idris.github.io/results-summary-component/",
             github_repo_link: "https://github.com/Yazeed-Idris/results-summary-component",
             used_technologies: [
@@ -308,7 +308,7 @@ export const data ={
                 "./projects_assets/rock-paper-scissors/rock-paper-scissors-desktop-rules.png",
                 "./projects_assets/rock-paper-scissors/rock-paper-scissors-mobile-rules.png"
             ],
-            description: "A simple rock paper scissors game built with HTML, CSS and JavaScript.",
+            description: "A simple rock paper scissors game built with ReactJS, TailwindCSS, and Vite",
             live_site_link: "https://yazeed-idris.github.io/rock-paper-scissors-production/",
             github_repo_link: "https://github.com/Yazeed-Idris/rock-paper-scissors",
             used_technologies: [
@@ -340,7 +340,7 @@ export const data ={
                 "./projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-desktop-rules.png",
                 "./projects_assets/rock-paper-scissors-lizard-spock/rock-paper-scissors-lizard-spock-mobile-rules.png"
             ],
-            description: "A simple rock paper scissors lizard spock game built with HTML, CSS and JavaScript.",
+            description: "An extension of the rock paper scissors app with lizard and spock moves",
             live_site_link: "https://yazeed-idris.github.io/rock-paper-scissors-lizard-spock-production/",
             github_repo_link: "https://github.com/Yazeed-Idris/rock-paper-scissors/tree/rock-paper-scissors-lizard-spock",
             used_technologies: [
@@ -362,13 +362,13 @@ export const data ={
             ]
         },
         {
-            title: "Sales Page",
+            title: "Sales Page Template",
             image_url: "./projects_assets/sales-demo/sales-demo-desktop.PNG",
             image_urls: [
                 "./projects_assets/sales-demo/sales-demo-desktop.PNG",
                 "./projects_assets/sales-demo/sales-demo-mobile.PNG"
             ],
-            description: "A simple sales page built with HTML, CSS and JavaScript.",
+            description: "Sales page template for showing stores sales licenses and their information such as status and expiry dates",
             used_technologies: [
                 {
                     name: "HTML5",
@@ -394,7 +394,7 @@ export const data ={
                 "./projects_assets/tip-calculator-app/desktop-main.png",
                 "./projects_assets/tip-calculator-app/mobile-main.png"
             ],
-            description: "A simple tip calculator built with HTML, CSS and JavaScript.",
+            description: "A tip calculator app that calculates the tip based on the bill and number of people. Users can also choose the percentage of the tip",
             live_site_link: "https://yazeed-idris.github.io/tip-calculator-app/",
             github_repo_link: "https://github.com/Yazeed-Idris/tip-calculator-app",
             used_technologies: [
