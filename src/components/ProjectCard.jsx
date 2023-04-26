@@ -21,22 +21,25 @@ export const ProjectCard = ({project}) => {
     } , [])
 
     return (
-        <div className={`relative w-full h-full rounded-lg flex flex-col shadow-lg`}>
-            <img  className={`w-full object-cover rounded-t-lg`} src={project['image_url']} alt={`image of ${project.title}`}/>
-            <div ref={linksContainerRef} className={`absolute top-0 w-full left-0 text-secondary-contrast rounded-t-lg grid place-items-center opacity-0 hover:opacity-100 bg-primary transition-all duration-300`}>
-                <div className={`relative h-full`}>
-                    <img className={`w-full h-full object-cover rounded-t-lg invisible`} src={project['image_url']} alt=""/>
-                    <div className={`w-full h-full absolute top-0 left-0 py-4 grid place-items-center`}>
-                        <h1 className={`font-LilitaOne text-xl md:text-2xl text-plain opacity-90 mb-3 text-center`}>{project.title}</h1>
-                        <div className={`flex justify-center`}><ExternalLinkButton link={project['live_site_link']}
-                                                                                   text={'Live Site'}/>
-                            <ExternalLinkButton link={project['github_repo_link']} text={'Github Repo'}/>
-                            <ExternalLinkButton link={project['more_link']} text={'More'}/>
+        <div className={`relative h-full w-full rounded-lg flex flex-col shadow-lg justify-start`}>
+            <div className={`w-full rounded-t-lg`}>
+                <img  className={`w-full h-52 object-cover rounded-t-lg`} src={project['image_url']} alt={`image of ${project.title}`}/>
+                <div ref={linksContainerRef} className={`absolute h-52 top-0 w-full left-0 text-secondary-contrast rounded-t-lg grid place-items-center opacity-0 hover:opacity-100 bg-primary transition-all duration-300`}>
+                    <div className={`relative h-full`}>
+                        <img className={`w-full h-full object-cover rounded-t-lg invisible`} src={project['image_url']} alt=""/>
+                        <div className={`w-full absolute top-1/2 -translate-y-1/2 left-0 py-4 `}>
+                            <h1 className={`font-LilitaOne text-xl md:text-2xl text-plain opacity-90 mb-3 text-center`}>{project.title}</h1>
+                            <div className={`flex justify-center`}><ExternalLinkButton link={project['live_site_link']}
+                                                                                       text={'Live Site'}/>
+                                <ExternalLinkButton link={project['github_repo_link']} text={'Github Repo'}/>
+                                <ExternalLinkButton link={project['more_link']} text={'More'}/>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
+
             <div className={`grid place-items-center grow py-4 px-2`}>
                 <p className={`mx-1 text-primary text-center text-lg`}>{project['description']?? ''}</p>
                     {project['used_technologies'] && (
